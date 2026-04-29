@@ -1,7 +1,7 @@
 function handleResponse(answer) {
   let result = document.getElementById("result");
 
-  if (answer === "yes") {
+  if (answer === "fine") {
     result.innerText = "congratulations🥳";
   } else {
     result.innerText ="😭"
