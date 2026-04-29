@@ -2,8 +2,10 @@ function handleResponse(answer) {
   let result = document.getElementById("result");
 
   if (answer === "yes fine") {
-    result.innerText = "congratulations 🥳";
+    result.innerText = "Congratulations 🥳🎉";
+    result.style.color = "green";
   } else {
-    result.innerText ="😭"
+    result.innerText = "Why not fine? 😭";
+    result.style.color = "red";
   }
 }
